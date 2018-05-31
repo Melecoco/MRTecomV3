@@ -18,7 +18,7 @@ Liste_chat= [
 {:title => 'chat3', :description => 'lorem ipsum', :price => 10, :image_url => File.join('https://raw.githubusercontent.com/grahamgilbert/imagr/master/Imagr/Images.xcassets/AppIcon.appiconset/imagr_256.png')},
 {:title => 'chat4', :description => 'lorem ipsum', :price => 10, :image_url => File.join('../app/assets/images.chat4.png')},
 {:title => 'chat5', :description => 'lorem ipsum', :price => 10, :image_url => File.join(Rails.root, '../app/assets/images/chat5.png')},
-{:title => 'chat6', :description => 'lorem ipsum', :price => 10, :image_url => File.join(Rails.root, 'app/assets/images/chat6.png')},
+{:title => 'chat6', :description => 'lorem ipsum', :price => 10, :image_url => File.join('app/assets/images/chat6.png')},
 {:title => 'chat7', :description => 'lorem ipsum', :price => 10, :image_url => File.join(Rails.root, 'app/assets/images/chat7.png')},
 {:title => 'chat8', :description => 'lorem ipsum', :price => 10, :image_url => File.join(Rails.root, 'app/assets/images/chat8.png')},
 {:title => 'chat9', :description => 'lorem ipsum', :price => 10, :image_url => File.join(Rails.root, 'app/assets/images/chat9.png')},
