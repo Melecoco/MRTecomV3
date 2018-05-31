@@ -24,9 +24,11 @@
      
 	<button class="flex-c-m sizefull bg1 bo-rad-23 hov1 s-text1 trans-0-4">
 		Update Totals
-	</button>
+	</button> </br>
 
-    <strong>Le prix cummulé de votre panier : <%= total %> €</strong>
+    <strong>Le prix cummulé de votre panier : <%= total %> €</strong></br>
+    <%= link_to "Commander", command_path, class: "flex-c-m sizefull bg1 bo-rad-23 hov1 s-text1 trans-0-4" %>
+
 						
 <%else%>
 	<%= link_to "Créer un compte", new_user_registration_path%>	

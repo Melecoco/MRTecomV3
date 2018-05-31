@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   get '/items/:id', to: 'show#show', as: 'item'
   post '/panier/:id', to: 'show#add_to_cart', as: 'adding'
   get '/panier/:id', to: 'carts#show', as: 'panier'
+  get '/payer/:id', to: 'carts#add_item_to_order', as: 'command'
 end
