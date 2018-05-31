@@ -27,7 +27,11 @@
 	</button> </br>
 
     <strong>Le prix cummulé de votre panier : <%= total %> €</strong></br>
-    <%= link_to "Commander", command_path, class: "flex-c-m sizefull bg1 bo-rad-23 hov1 s-text1 trans-0-4" %>
+	<script src="https://checkout.stripe.com/checkout.js" class="stripe-button" 
+	data-key="<%= Rails.configuration.stripe[:publishable_key] %>"
+	data-description="A month's subscription"
+	data-amount="item.price"
+	data-locale="auto"> </script>
 
 						
 <%else%>
